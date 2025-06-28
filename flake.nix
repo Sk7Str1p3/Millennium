@@ -7,7 +7,6 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    self.submodules = true; # Requires *Nix* >= 2.27
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
 
